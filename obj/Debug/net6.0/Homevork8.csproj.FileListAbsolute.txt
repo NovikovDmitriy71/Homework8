@@ -1,0 +1,15 @@
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/Homevork8.csproj.AssemblyReference.cache
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/Homevork8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/Homevork8.AssemblyInfoInputs.cache
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/Homevork8.AssemblyInfo.cs
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/Homevork8.csproj.CoreCompileInputs.cache
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/bin/Debug/net6.0/Homevork8
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/bin/Debug/net6.0/Homevork8.deps.json
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/bin/Debug/net6.0/Homevork8.runtimeconfig.json
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/bin/Debug/net6.0/Homevork8.dll
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/bin/Debug/net6.0/Homevork8.pdb
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/Homevork8.dll
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/refint/Homevork8.dll
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/Homevork8.pdb
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/Homevork8.genruntimeconfig.cache
+/Users/dmitrij/Desktop/SeminarS#/Homeworks/Homevork8/obj/Debug/net6.0/ref/Homevork8.dll

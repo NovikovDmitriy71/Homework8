@@ -228,4 +228,69 @@
 // WriteArray(resultarray1array2);
 
 //==================================================
+// трехмерный массив из не повторяющихся чисел с добавлением индекса числа
 
+void Input3DArray(int[,,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            for (int k = 0; k < array.GetLength(2); k++)
+                array[i, j, k] = RandomValue(array, i, j, k); 
+        }
+    }
+}
+
+static int RandomValue(int[,,] array, int i, int j, int k)
+{
+    int value = default;
+    bool flag = true;
+    while (flag)
+    {
+        bool noStop = true;
+         
+        value = new Random().Next(0,100);
+        for (int x = 0; x < array.GetLength(0) && noStop; x++)
+        {
+            for (int y = 0; y < array.GetLength(1) && noStop; y++)
+            {
+                for (int z = 0; z < array.GetLength(2) && noStop; z++)
+                {
+                    if (array[x, y, z] == value) 
+                        noStop = false; 
+                    if (x == i && y == j && z == k) 
+                        flag = false; 
+                }
+            }
+        }
+    }
+    return value;
+}
+
+void Print3DArray(int[,,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            for (int k = 0; k < array.GetLength(2); k++) 
+                Console.Write($"{array[i, j, k], 1}({i},{j},{k})\t");
+            Console.WriteLine();
+        }
+    }
+}
+
+Console.WriteLine("Введите значение Х ");
+int x= Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите значение y ");
+int y= Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите значение z ");
+int z= Convert.ToInt32(Console.ReadLine());
+
+ Console.WriteLine($"3D Массив размером {x} x {y} x {z}: ");
+
+int[,,] array = new int[x, y, z];
+
+Input3DArray(array);
+Print3DArray(array);
